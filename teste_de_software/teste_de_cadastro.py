@@ -10,7 +10,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
-class TestTesteDeCadastro():
+class TestesDeCadastro():
   def setup_method(self, method):
     self.driver = webdriver.Firefox()
     self.vars = {}
@@ -51,7 +51,3 @@ class TestTesteDeCadastro():
     self.driver.find_element(By.ID, "id_conf_password").click()
     self.driver.find_element(By.ID, "id_conf_password").send_keys("jonatas4")
     self.driver.find_element(By.CSS_SELECTOR, ".btn").click()
-  
-  def test_testeLoginComUsuarioInexistente(self):
-    self.driver.get("http://localhost:8000/login")
-

@@ -1,0 +1,73 @@
+{
+  "id": "6b23fa7c-1b73-46c0-af4f-aad72ac8e9b2",
+  "version": "2.0",
+  "name": "teste_login_vazio",
+  "url": "http://localhost:8000",
+  "tests": [{
+    "id": "72859ff3-6761-4288-835c-8b0d635a8979",
+    "name": "testeloginvazio",
+    "commands": [{
+      "id": "de144e3e-1267-4109-abd2-3cf2bec540c3",
+      "comment": "",
+      "command": "open",
+      "target": "/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d06ce078-b579-4b8c-8be2-9acd5f698880",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1849x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "345e5531-cd3b-46a0-8ec7-82b2baec5735",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_username",
+      "targets": [
+        ["id=id_username", "id"],
+        ["name=username", "name"],
+        ["css=#id_username", "css:finder"],
+        ["xpath=//input[@id='id_username']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fae6312b-8270-44d2-9ce0-9fc0c0d70d15",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_password",
+      "targets": [
+        ["id=id_password", "id"],
+        ["name=password", "name"],
+        ["css=#id_password", "css:finder"],
+        ["xpath=//input[@id='id_password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c93c80aa-7373-4368-b862-174fe70b9b70",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Logar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c212a4e2-4b40-4b6d-9cdd-3bb7b43e3233",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["72859ff3-6761-4288-835c-8b0d635a8979"]
+  }],
+  "urls": ["http://localhost:8000/"],
+  "plugins": []
+}
