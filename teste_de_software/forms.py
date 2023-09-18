@@ -80,8 +80,15 @@ class CadastroForm(forms.Form):
             raise forms.ValidationError("Senhas não são iguais!")
 
         return conf_password
+    
+    def verificaSeNomeEhTexto(self):
 
+        name = self.cleaned_data.get('name')
 
+        if type(name) != str:
+            raise forms.ValidationError("nome não é válido")
+        
+        return name
 
 
 

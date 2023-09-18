@@ -24,10 +24,6 @@ def cadastro(request):
             if User.objects.filter(username=username).exists():
                 messages.error(request, 'Usuário já existe')
                 return redirect('cadastro')
-            
-            if User.objects.filter(username=username) != str:
-                messages.error(request, 'nome inválido')
-                return redirect('cadastro')
 
             usuario = User.objects.create_user(
                 first_name = name,

@@ -102,8 +102,10 @@ class TestesDeCadastro():
   def test_testeCadastroComUsuarioComTipoDiferenteDeTexto(self):
     self.driver.get("http://localhost:8000/cadastro")
     self.driver.set_window_size(1849, 1080)
-    self.driver.find_element(By.ID, "id_name").click()
-    self.driver.find_element(By.ID, "id_name").send_keys("111")
+    name = self.driver.find_element(By.ID, "id_name")
+    name.click()
+    name.send_keys(1)
+    assert name.get_attribute("value") == 1 #objetivo: verificar se o tipo da variavel nome é string
     self.driver.find_element(By.ID, "id_surname").click()
     self.driver.find_element(By.ID, "id_surname").send_keys("222")
     self.driver.find_element(By.ID, "id_username").click()
