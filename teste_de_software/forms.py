@@ -82,7 +82,6 @@ class CadastroForm(forms.Form):
         return conf_password
     
     def verificaSeNomeEhTexto(self):
-
         name = self.cleaned_data.get('name')
 
         if type(name) != str:

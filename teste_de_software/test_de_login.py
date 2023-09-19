@@ -58,3 +58,51 @@ class TestesDeLogin():
     self.driver.find_element(By.ID, "id_password").click()
     self.driver.find_element(By.ID, "id_password").send_keys("jonatas")
     self.driver.find_element(By.CSS_SELECTOR, ".btn").click()
+
+  
+  def test_loginComSenhaErrada(self):
+    self.driver.get("http://localhost:8000/login")
+    self.driver.set_window_size(1849, 1080)
+    self.driver.find_element(By.ID, "id_username").click()
+    self.driver.find_element(By.ID, "id_username").send_keys("jonatasteste") 
+    self.driver.find_element(By.ID, "id_password").click()
+    self.driver.find_element(By.ID, "id_password").send_keys("jonataskkkkk")
+    self.driver.find_element(By.CSS_SELECTOR, ".btn").click()
+
+  
+  def test_loginComSenhaMaiorQueOPermitido(self):
+    self.driver.get("http://localhost:8000/login")
+    self.driver.set_window_size(1849, 1080)
+    self.driver.find_element(By.ID, "id_username").click()
+    self.driver.find_element(By.ID, "id_username").send_keys("jonatasteste") 
+    self.driver.find_element(By.ID, "id_password").click()
+    self.driver.find_element(By.ID, "id_password").send_keys("jonatassssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss")
+    self.driver.find_element(By.CSS_SELECTOR, ".btn").click()
+
+  
+  def test_loginComDadosEmTiposErrados(self):
+    self.driver.get("http://localhost:8000/login")
+    self.driver.set_window_size(1849, 1080)
+    self.driver.find_element(By.ID, "id_username").click()
+    self.driver.find_element(By.ID, "id_username").send_keys(10.5) 
+    self.driver.find_element(By.ID, "id_password").click()
+    self.driver.find_element(By.ID, "id_password").send_keys(5)
+    self.driver.find_element(By.CSS_SELECTOR, ".btn").click()
+
+  def test_loginComEspacosComoValores(self):
+    self.driver.get("http://localhost:8000/login")
+    self.driver.set_window_size(1849,1080)
+    self.driver.find_element(By.ID, "id_username").click()
+    self.driver.find_element(By.ID, "id_username").send_keys("   ")
+    self.driver.find_element(By.ID, "id_password").click()
+    self.driver.find_element(By.ID, "id_password").send_keys("   ")
+    self.driver.find_element(By.CSS_SELECTOR, ".btn").click()
+   
+  def test_loginComNomeDeUsuarioComoEmail(self):
+    self.driver.get("http://localhost:8000/login")
+    self.driver.set_window_size(1849, 1080)
+    self.driver.find_element(By.ID, "id_username").click()
+    self.driver.find_element(By.ID, "id_username").send_keys("jonatasteste@gmail.com") 
+    self.driver.find_element(By.ID, "id_password").click()
+    self.driver.find_element(By.ID, "id_password").send_keys("jonatas")
+    self.driver.find_element(By.CSS_SELECTOR, ".btn").click()
