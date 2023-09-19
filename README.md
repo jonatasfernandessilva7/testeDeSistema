@@ -29,7 +29,7 @@ Agora que já está com o venv ativado veja os requisitos para rodar os testes..
 
 Já com o venv ativo verifique se tem as bibliotecas abaixo:
 
-- Ter o ***djando*** instalado
+- Ter o ***django*** instalado
   - ```bash 
       pip install django
     ```
@@ -46,13 +46,15 @@ Já com o venv ativo verifique se tem as bibliotecas abaixo:
 
 Para executar os testes corretamente siga os passos.:
 
-Rodando o servidor -> ```bash 
-                          python3 manage.py runserver
-                      ``` 
+Rodando o servidor -> 
+```bash 
+python3 manage.py runserver
+``` 
 
-Executanto os testes -> ```bash
-                             pytest
-                        ```
+Executanto os testes -> 
+```bash
+pytest
+```
 
 ### Autor
 
