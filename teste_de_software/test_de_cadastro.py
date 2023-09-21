@@ -104,6 +104,7 @@ class TestesDeCadastro():
     self.driver.set_window_size(1849, 1080)
     self.driver.find_element(By.ID, "id_name").click()
     self.driver.find_element(By.ID, "id_name").send_keys(1)
+    assert self.driver.find_element(By.ID, "id_name").text == "jonatas"
     self.driver.find_element(By.ID, "id_surname").click()
     self.driver.find_element(By.ID, "id_surname").send_keys("222")
     self.driver.find_element(By.ID, "id_username").click()
@@ -189,3 +190,21 @@ class TestesDeCadastro():
     self.driver.find_element(By.ID, "id_conf_password").click()
     self.driver.find_element(By.ID, "id_conf_password").send_keys(5)
     self.driver.find_element(By.CSS_SELECTOR, ".btn").click()
+
+  def test_verificar_se_o_cadastro_ocorre_com_sucesso_e_muda_a_tela_para_a_de_login(self):
+    self.driver.get("http://localhost:8000/cadastro")
+    self.driver.set_window_size(1849, 1080)
+    self.driver.find_element(By.ID, "id_name").click()
+    self.driver.find_element(By.ID, "id_name").send_keys("jonatas")
+    self.driver.find_element(By.ID, "id_surname").click()
+    self.driver.find_element(By.ID, "id_surname").send_keys("silva")
+    self.driver.find_element(By.ID, "id_username").click()
+    self.driver.find_element(By.ID, "id_username").send_keys("jonataskkkkhdghg")
+    self.driver.find_element(By.ID, "id_email").click()
+    self.driver.find_element(By.ID, "id_email").send_keys("test6@gmail.com")
+    self.driver.find_element(By.ID, "id_password").click()
+    self.driver.find_element(By.ID, "id_password").send_keys("jonatas")
+    self.driver.find_element(By.ID, "id_conf_password").click()
+    self.driver.find_element(By.ID, "id_conf_password").send_keys("jonatas")
+    self.driver.find_element(By.CSS_SELECTOR, ".btn").click()
+    assert self.driver.find_element(By.CSS_SELECTOR, ".btn").text == "Logar"
