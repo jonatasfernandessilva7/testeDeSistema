@@ -7329,3 +7329,584 @@ DevTools listening on ws://127.0.0.1:42215/devtools/browser/68d1834a-f49f-416f-8
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:8000."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:8000."
 1695305331266	Marionette	INFO	Stopped listening on port 41795
+1695469534806	geckodriver	INFO	Listening on 127.0.0.1:38597
+1695469535311	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "60697" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileokfQUr"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695469536157	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695469536282	Marionette	INFO	Listening on port 42203
+WebDriver BiDi listening on ws://127.0.0.1:60697
+Read port: 42203
+1695469536502	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript error: resource://gre/modules/TelemetryUtils.sys.mjs, line 143: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:60697/devtools/browser/8f65ec4b-a0b7-4120-9d6b-866b2467cf31
+1695469539677	Marionette	INFO	Stopped listening on port 42203
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 229))
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 411))
+1695469539796	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+[ERROR glean_core] Can't persist ping lifetime data: Error { kind: Rkv(IoError(Os { code: 2, kind: NotFound, message: "No such file or directory" })) }
+1695469539880	geckodriver	INFO	Listening on 127.0.0.1:39419
+1695469540387	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "49075" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileulBAfY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695469541185	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695469541314	Marionette	INFO	Listening on port 43237
+WebDriver BiDi listening on ws://127.0.0.1:49075
+Read port: 43237
+1695469541557	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript error: resource://gre/modules/TelemetryUtils.sys.mjs, line 143: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:49075/devtools/browser/b0cd6ede-1200-4f2c-86b6-7b447bf7db85
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:8000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:8000."
+1695469545072	Marionette	INFO	Stopped listening on port 43237
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 229))
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 411))
+1695469547756	geckodriver	INFO	Listening on 127.0.0.1:39431
+1695469548263	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "47813" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiledJrYyx"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695469549059	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695469549184	Marionette	INFO	Listening on port 41691
+WebDriver BiDi listening on ws://127.0.0.1:47813
+Read port: 41691
+1695469549414	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript error: resource://gre/modules/TelemetryUtils.sys.mjs, line 143: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:47813/devtools/browser/b72ac6d1-44e5-4076-bc4e-7539683d82d8
+1695469552882	Marionette	INFO	Stopped listening on port 41691
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 229))
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 411))
+1695469555559	geckodriver	INFO	Listening on 127.0.0.1:58847
+1695469556066	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "51475" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileEMSOEL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695469556874	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695469556989	Marionette	INFO	Listening on port 42601
+WebDriver BiDi listening on ws://127.0.0.1:51475
+Read port: 42601
+1695469557238	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript error: resource://gre/modules/TelemetryUtils.sys.mjs, line 143: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:51475/devtools/browser/f427e475-ce1f-44de-970c-e2443fc01c8f
+1695469561419	Marionette	INFO	Stopped listening on port 42601
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 229))
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 411))
+1695469564107	geckodriver	INFO	Listening on 127.0.0.1:49639
+1695469564614	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "44601" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilepBmzA9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695469565426	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695469565545	Marionette	INFO	Listening on port 46371
+WebDriver BiDi listening on ws://127.0.0.1:44601
+Read port: 46371
+1695469565776	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript error: resource://gre/modules/TelemetryUtils.sys.mjs, line 143: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:44601/devtools/browser/d666885c-4fa6-412c-8af7-e2a8ab4e29a4
+1695469570191	Marionette	INFO	Stopped listening on port 46371
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  TypeError: NetworkError: Network request failed
+console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.sys.mjs", 107))
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 411))
+1695469572964	geckodriver	INFO	Listening on 127.0.0.1:46349
+1695469573471	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "45265" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiledFtY9O"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695469574273	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695469574387	Marionette	INFO	Listening on port 43725
+WebDriver BiDi listening on ws://127.0.0.1:45265
+Read port: 43725
+1695469574620	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript error: resource://gre/modules/TelemetryUtils.sys.mjs, line 143: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:45265/devtools/browser/b0275a37-fd25-46d6-a29a-436a131ea87a
+1695469576853	Marionette	INFO	Stopped listening on port 43725
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 229))
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 411))
+1695469579610	geckodriver	INFO	Listening on 127.0.0.1:37519
+1695469580116	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "34377" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilelJeXbQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695469580918	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695469581033	Marionette	INFO	Listening on port 41801
+WebDriver BiDi listening on ws://127.0.0.1:34377
+Read port: 41801
+1695469581264	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript error: resource://gre/modules/TelemetryUtils.sys.mjs, line 143: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:34377/devtools/browser/e0ee6f3f-cee3-41ed-b33b-2c6ffcb5f15d
+1695469583806	Marionette	INFO	Stopped listening on port 41801
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 229))
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 411))
+1695469585849	geckodriver	INFO	Listening on 127.0.0.1:57309
+1695469586356	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "47331" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilebdB0WP"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695469587160	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695469587285	Marionette	INFO	Listening on port 34237
+WebDriver BiDi listening on ws://127.0.0.1:47331
+Read port: 34237
+1695469587512	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript error: resource://gre/modules/TelemetryUtils.sys.mjs, line 143: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:47331/devtools/browser/fa8d96ec-445a-4c5a-9305-13462ba38cbb
+1695469591447	Marionette	INFO	Stopped listening on port 34237
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 229))
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 411))
+1695469594217	geckodriver	INFO	Listening on 127.0.0.1:46421
+1695469594724	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "46583" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile9JVMLp"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695469595544	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695469595663	Marionette	INFO	Listening on port 35779
+WebDriver BiDi listening on ws://127.0.0.1:46583
+Read port: 35779
+1695469595886	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript error: resource://gre/modules/TelemetryUtils.sys.mjs, line 143: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:46583/devtools/browser/c11fc2a0-1f73-48aa-ab03-4f8de66f1ff5
+1695469599655	Marionette	INFO	Stopped listening on port 35779
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 229))
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 411))
+1695469602355	geckodriver	INFO	Listening on 127.0.0.1:36935
+1695469602862	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "39583" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileAErP1n"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695469603643	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695469603762	Marionette	INFO	Listening on port 38921
+WebDriver BiDi listening on ws://127.0.0.1:39583
+Read port: 38921
+1695469604000	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript error: resource://gre/modules/TelemetryUtils.sys.mjs, line 143: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:39583/devtools/browser/c458d992-cd2d-42fa-a382-ae0b32c5860c
+1695469608182	Marionette	INFO	Stopped listening on port 38921
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 229))
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 411))
+1695469610847	geckodriver	INFO	Listening on 127.0.0.1:42173
+1695469611354	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "56685" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile2Nipaf"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695469612150	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695469612269	Marionette	INFO	Listening on port 37969
+WebDriver BiDi listening on ws://127.0.0.1:56685
+Read port: 37969
+1695469612491	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript error: resource://gre/modules/TelemetryUtils.sys.mjs, line 143: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:56685/devtools/browser/bf02ccf2-f4c1-4a6e-81e7-4d90d73ab88b
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:8000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:8000."
+1695469616308	Marionette	INFO	Stopped listening on port 37969
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 229))
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 411))
+1695469619112	geckodriver	INFO	Listening on 127.0.0.1:44483
+1695469619618	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "32823" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile0ShCXe"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695469620415	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695469620532	Marionette	INFO	Listening on port 34187
+WebDriver BiDi listening on ws://127.0.0.1:32823
+Read port: 34187
+1695469620757	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript error: resource://gre/modules/TelemetryUtils.sys.mjs, line 143: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:32823/devtools/browser/d6e4711f-5f17-4678-b288-161182e25721
+1695469623337	Marionette	INFO	Stopped listening on port 34187
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 229))
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 411))
+1695469626103	geckodriver	INFO	Listening on 127.0.0.1:44819
+1695469626609	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "50539" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileV2keYC"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695469627448	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695469627577	Marionette	INFO	Listening on port 35935
+WebDriver BiDi listening on ws://127.0.0.1:50539
+Read port: 35935
+1695469627809	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript error: resource://gre/modules/TelemetryUtils.sys.mjs, line 143: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:50539/devtools/browser/09aa2626-5e71-4dc8-8c14-d9459f27868f
+1695469631339	Marionette	INFO	Stopped listening on port 35935
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 229))
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 411))
+1695469633727	geckodriver	INFO	Listening on 127.0.0.1:47507
+1695469634234	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "34723" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilezFQf49"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695469635032	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695469635151	Marionette	INFO	Listening on port 37347
+WebDriver BiDi listening on ws://127.0.0.1:34723
+Read port: 37347
+1695469635383	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript error: resource://gre/modules/TelemetryUtils.sys.mjs, line 143: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:34723/devtools/browser/42b7829f-a3d5-47c2-826a-01afd435a123
+1695469638633	Marionette	INFO	Stopped listening on port 37347
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 229))
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 411))
+1695469641316	geckodriver	INFO	Listening on 127.0.0.1:54581
+1695469641822	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "34291" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileWPJzsp"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695469642634	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695469642755	Marionette	INFO	Listening on port 44069
+WebDriver BiDi listening on ws://127.0.0.1:34291
+Read port: 44069
+1695469642979	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript error: resource://gre/modules/TelemetryUtils.sys.mjs, line 143: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:34291/devtools/browser/a82ddbf3-4259-4504-a2bb-d0c7d19aa2c4
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:8000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:8000."
+1695469646167	Marionette	INFO	Stopped listening on port 44069
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 229))
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 411))
+1695469648875	geckodriver	INFO	Listening on 127.0.0.1:46273
+1695469649382	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "40705" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileAryPnO"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695469650193	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695469650312	Marionette	INFO	Listening on port 38941
+WebDriver BiDi listening on ws://127.0.0.1:40705
+Read port: 38941
+1695469650536	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript error: resource://gre/modules/TelemetryUtils.sys.mjs, line 143: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:40705/devtools/browser/d13696cd-8db9-4560-beb1-09ba6f2cf488
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:8000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:8000."
+1695469653380	Marionette	INFO	Stopped listening on port 38941
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 229))
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 411))
+1695469655653	geckodriver	INFO	Listening on 127.0.0.1:54223
+1695469656160	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "60221" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilentseVJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695469656968	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695469657085	Marionette	INFO	Listening on port 45763
+WebDriver BiDi listening on ws://127.0.0.1:60221
+Read port: 45763
+1695469657328	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript error: resource://gre/modules/TelemetryUtils.sys.mjs, line 143: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:60221/devtools/browser/f2b0a2f5-3642-4256-8e4e-f00afae71b7b
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:8000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:8000."
+1695469660446	Marionette	INFO	Stopped listening on port 45763
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 229))
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 411))
+1695469663106	geckodriver	INFO	Listening on 127.0.0.1:55461
+1695469663613	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "49597" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileTDZtBQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695469664413	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695469664533	Marionette	INFO	Listening on port 35253
+WebDriver BiDi listening on ws://127.0.0.1:49597
+Read port: 35253
+1695469664770	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript error: resource://gre/modules/TelemetryUtils.sys.mjs, line 143: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:49597/devtools/browser/aceb738d-24fe-4cf7-bb88-a7a67a1ab081
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:8000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:8000."
+1695469668296	Marionette	INFO	Stopped listening on port 35253
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 229))
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 411))
+1695469670987	geckodriver	INFO	Listening on 127.0.0.1:55979
+1695469671494	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "49807" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileJ31ZzI"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695469672286	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695469672406	Marionette	INFO	Listening on port 38187
+WebDriver BiDi listening on ws://127.0.0.1:49807
+Read port: 38187
+1695469672650	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript error: resource://gre/modules/TelemetryUtils.sys.mjs, line 143: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:49807/devtools/browser/892ae5d6-3aa5-4f4e-ab25-b0525ce93f15
+1695469675487	Marionette	INFO	Stopped listening on port 38187
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 229))
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 411))
+1695469678363	geckodriver	INFO	Listening on 127.0.0.1:44677
+1695469678870	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "52013" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile9GNRsa"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695469679663	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695469679787	Marionette	INFO	Listening on port 40875
+WebDriver BiDi listening on ws://127.0.0.1:52013
+Read port: 40875
+1695469680026	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript error: resource://gre/modules/TelemetryUtils.sys.mjs, line 143: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:52013/devtools/browser/c62fc206-af1d-4539-abef-b1b30eb2287b
+1695469683006	Marionette	INFO	Stopped listening on port 40875
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 229))
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 411))
+1695469684672	geckodriver	INFO	Listening on 127.0.0.1:48585
+1695469685178	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "53063" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileTwSaKu"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695469685974	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695469686098	Marionette	INFO	Listening on port 37275
+WebDriver BiDi listening on ws://127.0.0.1:53063
+Read port: 37275
+1695469686333	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript error: resource://gre/modules/TelemetryUtils.sys.mjs, line 143: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:53063/devtools/browser/1134c801-bd73-443c-86ae-2c4400149ed3
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:8000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:8000."
+1695469689056	Marionette	INFO	Stopped listening on port 37275
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 229))
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 411))
+1695469691731	geckodriver	INFO	Listening on 127.0.0.1:47555
+1695469692238	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "41699" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilesbtEJy"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695469693043	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695469693163	Marionette	INFO	Listening on port 40461
+WebDriver BiDi listening on ws://127.0.0.1:41699
+Read port: 40461
+1695469693390	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript error: resource://gre/modules/TelemetryUtils.sys.mjs, line 143: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:41699/devtools/browser/02835c95-0d78-4a41-846d-13a4d941f232
+1695469695310	Marionette	INFO	Stopped listening on port 40461
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 229))
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 411))
+1695470328201	geckodriver	INFO	Listening on 127.0.0.1:38925
+1695470328209	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "49417" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilewpDMkN"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695470329038	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695470329153	Marionette	INFO	Listening on port 40643
+WebDriver BiDi listening on ws://127.0.0.1:49417
+Read port: 40643
+1695470329383	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript error: resource://gre/modules/TelemetryUtils.sys.mjs, line 143: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:49417/devtools/browser/a0954cf8-b446-4284-92fb-c4c3e1e26af6
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 759))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 411))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:8000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:8000."
+1695470334777	Marionette	INFO	Stopped listening on port 40643
+console.warn: services.settings: main/partitioning-exempt-urls sync interrupted by shutdown
+1695470337550	geckodriver	INFO	Listening on 127.0.0.1:49095
+1695470338057	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "46795" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileXjpNRA"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695470338875	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695470338995	Marionette	INFO	Listening on port 38937
+WebDriver BiDi listening on ws://127.0.0.1:46795
+Read port: 38937
+1695470339218	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript error: resource://gre/modules/TelemetryUtils.sys.mjs, line 143: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:46795/devtools/browser/88f9a071-cc6e-494f-b932-d45ee93647bd
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:8000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:8000."
+1695470342768	Marionette	INFO	Stopped listening on port 38937
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 229))
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 411))
+1695470345548	geckodriver	INFO	Listening on 127.0.0.1:40583
+1695470346054	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "55755" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileXUsHYe"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695470346908	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695470347032	Marionette	INFO	Listening on port 34445
+WebDriver BiDi listening on ws://127.0.0.1:55755
+Read port: 34445
+1695470347211	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript error: resource://gre/modules/TelemetryUtils.sys.mjs, line 143: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:55755/devtools/browser/53f73fde-8a1c-436c-9bbf-311f73b1c3d5
+1695470351036	Marionette	INFO	Stopped listening on port 34445
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 229))
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 411))
+1695470353674	geckodriver	INFO	Listening on 127.0.0.1:34525
+1695470354180	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "42971" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilekUiRmx"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695470355015	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695470355134	Marionette	INFO	Listening on port 36085
+WebDriver BiDi listening on ws://127.0.0.1:42971
+Read port: 36085
+1695470355354	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript error: resource://gre/modules/TelemetryUtils.sys.mjs, line 143: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:42971/devtools/browser/da8648fc-c614-498e-883d-ea2804e5d90e
+1695470359531	Marionette	INFO	Stopped listening on port 36085
+console.warn: services.settings: main/partitioning-exempt-urls sync interrupted by shutdown
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 411))
+1695470362205	geckodriver	INFO	Listening on 127.0.0.1:35673
+1695470362711	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "44141" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile3lMbet"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695470363532	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695470363651	Marionette	INFO	Listening on port 42915
+WebDriver BiDi listening on ws://127.0.0.1:44141
+Read port: 42915
+1695470363879	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript error: resource://gre/modules/TelemetryUtils.sys.mjs, line 143: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:44141/devtools/browser/5d9c39d1-1fd1-4e49-9a16-2928235e6f15
+1695470367881	Marionette	INFO	Stopped listening on port 42915
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 229))
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 411))
+1695470370536	geckodriver	INFO	Listening on 127.0.0.1:49561
+1695470371043	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "39355" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileV0Lbnl"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695470371864	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695470371978	Marionette	INFO	Listening on port 40139
+WebDriver BiDi listening on ws://127.0.0.1:39355
+Read port: 40139
+1695470372211	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript error: resource://gre/modules/TelemetryUtils.sys.mjs, line 143: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:39355/devtools/browser/7218e846-c24f-4541-932a-a6f120b8825b
+1695470374823	Marionette	INFO	Stopped listening on port 40139
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 229))
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 411))
+1695470377509	geckodriver	INFO	Listening on 127.0.0.1:40151
+1695470378015	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "44017" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiles4X4s8"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695470378845	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695470378959	Marionette	INFO	Listening on port 40965
+WebDriver BiDi listening on ws://127.0.0.1:44017
+Read port: 40965
+1695470379193	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript error: resource://gre/modules/TelemetryUtils.sys.mjs, line 143: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:44017/devtools/browser/e9d098d2-6c5d-444a-87e1-d50b0ded2069
+1695470381725	Marionette	INFO	Stopped listening on port 40965
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 229))
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 411))
+1695470384480	geckodriver	INFO	Listening on 127.0.0.1:55791
+1695470384987	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "48029" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileY3FnVR"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695470385815	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695470385930	Marionette	INFO	Listening on port 33785
+WebDriver BiDi listening on ws://127.0.0.1:48029
+Read port: 33785
+1695470386155	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript error: resource://gre/modules/TelemetryUtils.sys.mjs, line 143: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:48029/devtools/browser/53e27636-804c-4223-a917-8fd33d79e9e3
+1695470390091	Marionette	INFO	Stopped listening on port 33785
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 229))
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 411))
+1695470392881	geckodriver	INFO	Listening on 127.0.0.1:55195
+1695470393387	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "58091" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileRM8NdA"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695470394186	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1695470394306	Marionette	INFO	Listening on port 34671
+WebDriver BiDi listening on ws://127.0.0.1:58091
+Read port: 34671
+1695470394534	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript error: resource://gre/modules/TelemetryUtils.sys.mjs, line 143: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:58091/devtools/browser/6308f284-9043-4b37-b384-006715033da8
+1695470398305	Marionette	INFO	Stopped listening on port 34671
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 411))
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 229))
+1695470400989	geckodriver	INFO	Listening on 127.0.0.1:44887
